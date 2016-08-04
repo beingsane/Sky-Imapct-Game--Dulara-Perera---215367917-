@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App5", "App5\App5.csproj", "{E1F380B1-0216-4133-95EC-137939104138}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sky Impact - Game", "App5\Sky Impact - Game.csproj", "{E1F380B1-0216-4133-95EC-137939104138}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

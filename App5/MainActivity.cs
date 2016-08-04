@@ -7,6 +7,7 @@ using Android.Widget;
 using Android.OS;
 using Android.Hardware;
 using Android.Graphics.Drawables;
+using Android.Media;
 
 namespace App5
 {
@@ -236,8 +237,10 @@ namespace App5
             float eY = enemy.GetY();
             float rY = rocket.GetY();
 
+            MediaPlayer player;
+            player = MediaPlayer.Create(this, Resource.Raw.laser);
+            player.Start();
 
-      
 
             laser.SetY(rocket.GetY()) ;
             laser.SetImageResource(Resource.Drawable.laser);
