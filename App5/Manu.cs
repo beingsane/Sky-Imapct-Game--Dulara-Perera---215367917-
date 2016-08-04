@@ -24,7 +24,7 @@ namespace App5
             button.Click += newGame;
 
             FindViewById<Button>(Resource.Id.about_btn).Click += about;
-            FindViewById<Button>(Resource.Id.exit_btn).Click += exit;
+            //FindViewById<Button>(Resource.Id.exit_btn).Click += exit;
         }
         void newGame(object sender, EventArgs e)
         {
@@ -42,16 +42,18 @@ namespace App5
 
         void exit(object sender, EventArgs e)
         {
-        //    AlertDialog.Builder alert = new AlertDialog.Builder(this);
-        //    alert.SetTitle("Exit");
-        //    alert.SetMessage("Are you sure to exit from the game?");
-        //    alert.SetPositiveButton("Exit", (senderAlert, args) => {
-        //        System.Environment.Exit(0);
-        //    });
-        //    alert.SetNegativeButton("Cancel", (senderAlert, args) => {
-                
-        //    });
-        //    alert.Show();
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.SetTitle("Exit");
+            alert.SetMessage("Are you sure to exit from the game???");
+            alert.SetPositiveButton("Exit", (senderAlert, args) =>
+            {
+                System.Environment.Exit(0);
+            });
+            alert.SetNegativeButton("Cancel", (senderAlert, args) =>
+            {
+
+            });
+            alert.Show();
         }
     }
 }
