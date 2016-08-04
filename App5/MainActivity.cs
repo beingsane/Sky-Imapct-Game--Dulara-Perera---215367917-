@@ -60,7 +60,7 @@ namespace App5
                 .Rotation(360);
 
            etimer = new System.Timers.Timer();
-            etimer.Interval = 2;
+            etimer.Interval = 20;
             etimer.Elapsed += (sender, e) =>
             {
 
