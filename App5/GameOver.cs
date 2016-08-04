@@ -20,7 +20,8 @@ namespace App5
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.activity_game_over);
-
+            string score = Intent.GetStringExtra("score");
+            FindViewById<TextView>(Resource.Id.score).SetY(0);
         }
     }
 }

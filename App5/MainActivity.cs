@@ -112,6 +112,8 @@ namespace App5
                             alert.SetMessage("Unfortunately enemy has hit your rocket.");
                             alert.SetPositiveButton("Continue", (senderAlert, args) => {
                                 Intent activity2 = new Intent(this, typeof(GameOver));
+                                string score = FindViewById<TextView>(Resource.Id.score).Text;
+                                activity2.PutExtra("score", score);
                                 this.StartActivity(activity2);
                                 this.Finish();
                             });
