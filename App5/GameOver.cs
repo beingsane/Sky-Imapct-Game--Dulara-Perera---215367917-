@@ -20,8 +20,22 @@ namespace App5
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.activity_game_over);
+
+
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.SetTitle("Exit");
+            alert.SetMessage("Are you sure to exit from the game?");
+            alert.SetPositiveButton("Exit", (senderAlert, args) => {
+                System.Environment.Exit(0);
+            });
+            alert.SetNegativeButton("Cancel", (senderAlert, args) => {
+
+            });
+            alert.Show();
+
             string score = Intent.GetStringExtra("score");
-            FindViewById<TextView>(Resource.Id.score).SetY(0);
+            Console.WriteLine("---------------------------------------------------------" + score);
+            FindViewById<TextView>(Resource.Id.score).SetWidth(10);
         }
     }
 }
