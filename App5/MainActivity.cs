@@ -196,7 +196,7 @@ namespace App5
             throw new NotImplementedException();
         }
 
-        private async void MoveBackground()
+        private void MoveBackground()
         {
 
 
@@ -218,8 +218,8 @@ namespace App5
                     LinearLayout.LayoutParams parms = new LinearLayout.LayoutParams(500, LinearLayout.LayoutParams.MatchParent);
                     newImg.LayoutParameters = parms;
 
-                    if(xA%50 == 0)
-                    ll.AddView(newImg);
+                    if (xA % 50 == 0)
+                        ll.AddView(newImg);
                 });
 
             };
@@ -229,7 +229,7 @@ namespace App5
 
         }
 
-      void shoot(object sender, EventArgs e)
+        void shoot(object sender, EventArgs e)
         {
             ImageView enemy = FindViewById<ImageView>(Resource.Id.mini);
             ImageView rocket = FindViewById<ImageView>(Resource.Id.rocket);

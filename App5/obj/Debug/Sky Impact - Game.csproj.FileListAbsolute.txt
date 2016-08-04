@@ -62,6 +62,7 @@ C:\Users\Dulara\My Drive\MyGit\App5\App5\bin\Debug\App5.dll
 C:\Users\Dulara\My Drive\MyGit\App5\App5\bin\Debug\App5.pdb
 C:\Users\Dulara\My Drive\MyGit\App5\App5\bin\Debug\App5.App5.apk
 C:\Users\Dulara\My Drive\MyGit\App5\App5\bin\Debug\App5.App5-Signed.apk
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\Sky Impact - Game.csprojResolveAssemblyReference.cache
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\App5.dll
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\App5.pdb
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\bin\App5.App5.apk
@@ -119,4 +120,5 @@ C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.Runtime
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\Sky Impact - Game.csprojResolveAssemblyReference.cache
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\App5.dll.mdb
+C:\Users\Dulara\My Drive\MyGit\App5\App5\bin\Debug\App5.dll.mdb
