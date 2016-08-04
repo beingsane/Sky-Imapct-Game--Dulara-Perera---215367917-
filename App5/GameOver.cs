@@ -25,7 +25,7 @@ namespace App5
             
 
             string score = Intent.GetStringExtra("score");
-            FindViewById<TextView>(Resource.Id.score).SetWidth(10);
+            FindViewById<TextView>(Resource.Id.score).SetWidth(1100);
         }
     }
 }

@@ -42,16 +42,16 @@ namespace App5
 
         void exit(object sender, EventArgs e)
         {
-            AlertDialog.Builder alert = new AlertDialog.Builder(this);
-            alert.SetTitle("Exit");
-            alert.SetMessage("Are you sure to exit from the game?");
-            alert.SetPositiveButton("Exit", (senderAlert, args) => {
-                System.Environment.Exit(0);
-            });
-            alert.SetNegativeButton("Cancel", (senderAlert, args) => {
+        //    AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        //    alert.SetTitle("Exit");
+        //    alert.SetMessage("Are you sure to exit from the game?");
+        //    alert.SetPositiveButton("Exit", (senderAlert, args) => {
+        //        System.Environment.Exit(0);
+        //    });
+        //    alert.SetNegativeButton("Cancel", (senderAlert, args) => {
                 
-            });
-            alert.Show();
+        //    });
+        //    alert.Show();
         }
     }
 }
