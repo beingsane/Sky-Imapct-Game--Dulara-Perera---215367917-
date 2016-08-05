@@ -21,7 +21,7 @@ namespace App5
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
             button = FindViewById<Button>(Resource.Id.StartGame);
-            //button.Click += newGame;
+            button.Click += newGame;
 
             FindViewById<Button>(Resource.Id.about_btn).Click += about;
             FindViewById<Button>(Resource.Id.exit_btn).Click += exit;
