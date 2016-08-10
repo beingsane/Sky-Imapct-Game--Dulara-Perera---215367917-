@@ -13,7 +13,7 @@ using Android.Media;
 
 namespace App5
 {
-    [Activity(Label = "SoundSetup")]
+    [Activity(Label = "Settings")]
     public class SoundSetup : Activity
     {
 

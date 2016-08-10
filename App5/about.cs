@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace App5
 {
-    [Activity(Label = "about")]
+    [Activity(Label = "About")]
     public class About : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

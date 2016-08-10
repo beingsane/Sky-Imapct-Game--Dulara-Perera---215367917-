@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace App5
 {
-    [Activity(Label = "GameOver")]
+    [Activity(Label = "Game Over")]
     public class GameOver : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

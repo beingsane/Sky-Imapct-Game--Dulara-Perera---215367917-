@@ -11,7 +11,7 @@ using Android.Media;
 
 namespace App5
 {
-    [Activity(Label = "App5")]
+    [Activity(Label = "Game")]
     public class MainActivity : Activity, ISensorEventListener
     {
         float bx = 0;
