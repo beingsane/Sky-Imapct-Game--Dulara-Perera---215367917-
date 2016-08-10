@@ -21,5 +21,17 @@ namespace App5
 
             SetContentView(Resource.Layout.about);
         }
+
+        public override void OnBackPressed()
+        {
+
+            Intent activity2 = new Intent(this, typeof(Menu));
+            this.StartActivity(activity2);
+            this.Finish();
+            SoundSetup.player.Stop();
+        }
+        }
+        
+
     }
-}
+    

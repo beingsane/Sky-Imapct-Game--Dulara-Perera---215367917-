@@ -22,20 +22,30 @@ namespace App5
         int score = 0;
         int level = 1;
         System.Timers.Timer etimer;
+       
 
         private static readonly object myLock = new object();
         private SensorManager mySensorManager;
         private float x = 0, y = 0, z = 0;
 
-        protected override void OnCreate(Bundle bundle)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(bundle);
-
-         
+            base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.game);
+            if (savedInstanceState != null)
+            {
+                score = savedInstanceState.GetInt("score");
+                level = savedInstanceState.GetInt("level");
+
+                TextView scoreText = FindViewById<TextView>(Resource.Id.score);
+                scoreText.Text = score.ToString();
+            }
+
+  
             enemyMove();
-            MoveBackground();
+           MoveBackground();
+            backgroundMusic();
 
             mySensorManager = (SensorManager)
             GetSystemService(SensorService);
@@ -48,6 +58,16 @@ namespace App5
             button.Click += shoot;
 
             FindViewById<Button>(Resource.Id.more).Click += shoWMenu;
+        }
+
+        private void backgroundMusic()
+        {
+            SoundSetup.player = MediaPlayer.Create(this, Resource.Raw.backsound);
+            SoundSetup.player.Start();
+            SoundSetup.player.Looping = true;
+            SoundSetup.player.SetVolume(SoundSetup.sound_level, SoundSetup.sound_level);
+
+            
         }
 
         private void shoWMenu(object sender, EventArgs e)
@@ -126,9 +146,11 @@ namespace App5
                     .Alpha(10);
 
 
-                        MediaPlayer player;
-                        player = MediaPlayer.Create(this, Resource.Raw.blast);
-                        player.Start();
+                        MediaPlayer player1;
+                        player1 = MediaPlayer.Create(this, Resource.Raw.blast);
+                        player1.Start();
+                        player1.SetVolume(SoundSetup.sound_level, SoundSetup.sound_level);
+
 
                         by = 0;
                         bx = width;
@@ -281,8 +303,8 @@ namespace App5
 
            
 
-            if (rY + 25 > eY && eY+25 > rY) {
-                enemyLife.Progress -= 10;
+            if ((rY + rocket.Height > eY && eY+enemy.Height >rY) || (eY + enemy.Height > rY && rY + rocket.Height> eY)) {
+                enemyLife.Progress -= 5;
 
                 score += (100 - enemyLife.Progress);
                 TextView scoreText = FindViewById<TextView>(Resource.Id.score);
@@ -296,7 +318,12 @@ namespace App5
                     alert.SetPositiveButton("Continue", (senderAlert, args) => {
                         FindViewById<ProgressBar>(Resource.Id.enemy_life).Progress = 100;
                         level++;
-                        etimer.Start(); 
+                        enemyMove();
+
+                        float scalingFactor = (10-2*level)/10f; 
+                        enemy.ScaleX =scalingFactor;
+                        enemy.ScaleY = scalingFactor;
+
                     });
                     alert.SetNegativeButton("Exit", (senderAlert, args) => {
                         Intent activity2 = new Intent(this, typeof(Android.Views.Menu));
@@ -331,7 +358,18 @@ namespace App5
 
             alert.Show();
         }
-
-}
+        protected override void OnSaveInstanceState(Bundle outState)
+        {
+            SoundSetup.player.Stop();
+            outState.PutInt("score", score);
+            outState.PutInt("level", level);
+            base.OnSaveInstanceState(outState);
+        }
+        protected override void OnPause()
+        {
+            SoundSetup.player.Stop();
+            base.OnPause();
+        }
+    }
 }
 

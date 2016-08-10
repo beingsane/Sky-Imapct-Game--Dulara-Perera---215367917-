@@ -17,17 +17,18 @@ namespace App5
     public class Menu : Activity
     {
         Button button;
+      
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
 
 
-            //MediaPlayer player;
-            ////player = MediaPlayer.Create(this, Resource.Raw.BackgroundMusic);
-            //player.Start();
-            //player.Looping = true;
-            //player.SetVolume(Settings.sound_level, Settings.sound_level);
+
+           SoundSetup. player = MediaPlayer.Create(this, Resource.Raw.backsound);
+            SoundSetup.player.Start();
+            SoundSetup.player.Looping = true;
+            SoundSetup.player.SetVolume(SoundSetup.sound_level, SoundSetup.sound_level);
 
             button = FindViewById<Button>(Resource.Id.StartGame);
             button.Click += newGame;
@@ -41,6 +42,7 @@ namespace App5
             Intent activity2 = new Intent(this, typeof(MainActivity));
             this.StartActivity(activity2);
             this.Finish();
+            SoundSetup.player.Pause();
         }
 
         void about(object sender, EventArgs e)
@@ -51,7 +53,7 @@ namespace App5
         }
         void settings(object sender, EventArgs e)
         {
-            Intent activity2 = new Intent(this, typeof(Settings));
+            Intent activity2 = new Intent(this, typeof(SoundSetup));
             this.StartActivity(activity2);
             this.Finish();
         }
@@ -70,8 +72,16 @@ namespace App5
 
             });
             alert.Show();
-        }
-    }
 
-  
-}
+
+        }
+
+        protected override void OnSaveInstanceState(Bundle outState)
+        {
+            SoundSetup.player.Stop();
+            
+            base.OnSaveInstanceState(outState);
+        }
+
+    }
+    }

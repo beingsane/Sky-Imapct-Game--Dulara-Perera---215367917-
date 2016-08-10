@@ -22,8 +22,11 @@ namespace App5
             SetContentView(Resource.Layout.GameOver);
             FindViewById<TextView>(Resource.Id.score).Text = Intent.GetStringExtra("score") ;
 
-            FindViewById<Button>(Resource.Id.main).Click += Retry;
-            FindViewById<Button>(Resource.Id.retry).Click += Manu;
+            FindViewById<Button>(Resource.Id.main).Click += Manu;
+            FindViewById<Button>(Resource.Id.retry).Click += Retry;
+
+
+
         }
 
         void Retry(object sender, EventArgs e)

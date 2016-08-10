@@ -42,13 +42,14 @@
         </LinearLayout>
     </HorizontalScrollView>
     <Button
-        android:text="More"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/more" 
-         android:layout_alignParentLeft="true"
+        android:id="@+id/more"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        />
+        android:drawableLeft="@drawable/more"
+        android:background="@android:color/transparent"
+        android:padding="5dp" />
     <ImageView
         android:id="@+id/mini"
         android:layout_width="wrap_content"
@@ -64,12 +65,15 @@
         android:layout_height="wrap_content"
         android:src="@drawable/rocket" />
     <Button
-        android:text="Shoot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/shoot"
+        android:drawableRight="@drawable/shoot"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0.0dp"
+        android:background="@android:color/transparent"
+        android:padding="5dp" />
     <ProgressBar
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:progressDrawable="@drawable/style2"
@@ -107,12 +111,22 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true" />
     <TextView
+        android:id="@+id/dy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Score"
+        android:padding="5dp"
+        android:textSize="4pt"
+        android:textColor="@android:color/holo_red_light" />
+
+    <TextView
         android:id="@+id/score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="0000"
-        android:padding="5dp"
+        android:text="0"
+        android:padding="10dp"
         android:textSize="12pt"
         android:textColor="@android:color/holo_red_light" />
 </RelativeLayout>

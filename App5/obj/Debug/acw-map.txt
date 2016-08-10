@@ -14,7 +14,7 @@ App5.Menu, App5;md593b8d625023f6802361dd1b8a6546be5.Menu
 App5.Menu, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md593b8d625023f6802361dd1b8a6546be5.Menu
 App5.Menu;md593b8d625023f6802361dd1b8a6546be5.Menu
 app5.Menu;md593b8d625023f6802361dd1b8a6546be5.Menu
-App5.Settings, App5;md593b8d625023f6802361dd1b8a6546be5.Settings
-App5.Settings, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md593b8d625023f6802361dd1b8a6546be5.Settings
-App5.Settings;md593b8d625023f6802361dd1b8a6546be5.Settings
-app5.Settings;md593b8d625023f6802361dd1b8a6546be5.Settings
+App5.SoundSetup, App5;md593b8d625023f6802361dd1b8a6546be5.SoundSetup
+App5.SoundSetup, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md593b8d625023f6802361dd1b8a6546be5.SoundSetup
+App5.SoundSetup;md593b8d625023f6802361dd1b8a6546be5.SoundSetup
+app5.SoundSetup;md593b8d625023f6802361dd1b8a6546be5.SoundSetup

@@ -78,31 +78,37 @@ namespace App5
 			public const int mini = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int pic = 2130837515;
+			public const int more = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int play_now = 2130837516;
+			public const int pic = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int retry = 2130837517;
+			public const int play_now = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int rock_shoot = 2130837518;
+			public const int retry = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int rocket = 2130837519;
+			public const int rock_shoot = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int rocket_small = 2130837520;
+			public const int rocket = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int settings = 2130837521;
+			public const int rocket_small = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int style = 2130837522;
+			public const int settings = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int style2 = 2130837523;
+			public const int shoot = 2130837523;
+			
+			// aapt resource value: 0x7f020014
+			public const int style = 2130837524;
+			
+			// aapt resource value: 0x7f020015
+			public const int style2 = 2130837525;
 			
 			static Drawable()
 			{
@@ -117,23 +123,26 @@ namespace App5
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070017
-			public const int StartGame = 2131165207;
+			// aapt resource value: 0x7f070018
+			public const int StartGame = 2131165208;
 			
-			// aapt resource value: 0x7f070019
-			public const int about_btn = 2131165209;
+			// aapt resource value: 0x7f07001a
+			public const int about_btn = 2131165210;
 			
 			// aapt resource value: 0x7f070007
 			public const int back = 2131165191;
 			
-			// aapt resource value: 0x7f070018
-			public const int button2 = 2131165208;
+			// aapt resource value: 0x7f070019
+			public const int button2 = 2131165209;
+			
+			// aapt resource value: 0x7f070012
+			public const int dy = 2131165202;
 			
 			// aapt resource value: 0x7f070010
 			public const int enemy_life = 2131165200;
 			
-			// aapt resource value: 0x7f07001a
-			public const int exit_btn = 2131165210;
+			// aapt resource value: 0x7f07001b
+			public const int exit_btn = 2131165211;
 			
 			// aapt resource value: 0x7f070006
 			public const int hsv = 2131165190;
@@ -156,14 +165,14 @@ namespace App5
 			// aapt resource value: 0x7f07000d
 			public const int laser = 2131165197;
 			
-			// aapt resource value: 0x7f07001d
-			public const int level = 2131165213;
+			// aapt resource value: 0x7f07001e
+			public const int level = 2131165214;
 			
-			// aapt resource value: 0x7f07001b
-			public const int linearLayout1 = 2131165211;
+			// aapt resource value: 0x7f07001c
+			public const int linearLayout1 = 2131165212;
 			
-			// aapt resource value: 0x7f070015
-			public const int main = 2131165205;
+			// aapt resource value: 0x7f070016
+			public const int main = 2131165206;
 			
 			// aapt resource value: 0x7f070005
 			public const int mbll = 2131165189;
@@ -174,29 +183,29 @@ namespace App5
 			// aapt resource value: 0x7f07000b
 			public const int more = 2131165195;
 			
-			// aapt resource value: 0x7f07001e
-			public const int one = 2131165214;
+			// aapt resource value: 0x7f07001f
+			public const int one = 2131165215;
 			
-			// aapt resource value: 0x7f070013
-			public const int retry = 2131165203;
+			// aapt resource value: 0x7f070014
+			public const int retry = 2131165204;
 			
 			// aapt resource value: 0x7f07000e
 			public const int rocket = 2131165198;
 			
-			// aapt resource value: 0x7f070012
-			public const int score = 2131165202;
+			// aapt resource value: 0x7f070013
+			public const int score = 2131165203;
 			
 			// aapt resource value: 0x7f07000f
 			public const int shoot = 2131165199;
 			
-			// aapt resource value: 0x7f070016
-			public const int textView = 2131165206;
+			// aapt resource value: 0x7f070017
+			public const int textView = 2131165207;
 			
-			// aapt resource value: 0x7f07001c
-			public const int textView1 = 2131165212;
+			// aapt resource value: 0x7f07001d
+			public const int textView1 = 2131165213;
 			
-			// aapt resource value: 0x7f070014
-			public const int textView2 = 2131165204;
+			// aapt resource value: 0x7f070015
+			public const int textView2 = 2131165205;
 			
 			// aapt resource value: 0x7f070001
 			public const int textView3 = 2131165185;
@@ -204,11 +213,11 @@ namespace App5
 			// aapt resource value: 0x7f070002
 			public const int textView4 = 2131165186;
 			
-			// aapt resource value: 0x7f070020
-			public const int three = 2131165216;
+			// aapt resource value: 0x7f070021
+			public const int three = 2131165217;
 			
-			// aapt resource value: 0x7f07001f
-			public const int two = 2131165215;
+			// aapt resource value: 0x7f070020
+			public const int two = 2131165216;
 			
 			// aapt resource value: 0x7f070011
 			public const int user_life = 2131165201;
@@ -274,10 +283,13 @@ namespace App5
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int blast = 2130968576;
+			public const int backsound = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int laser = 2130968577;
+			public const int blast = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int laser = 2130968578;
 			
 			static Raw()
 			{
