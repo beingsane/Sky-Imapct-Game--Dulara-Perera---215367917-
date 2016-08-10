@@ -1,7 +1,7 @@
 package md593b8d625023f6802361dd1b8a6546be5;
 
 
-public class GameResults
+public class Settings
 	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer
@@ -12,15 +12,15 @@ public class GameResults
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("App5.GameResults, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", GameResults.class, __md_methods);
+		mono.android.Runtime.register ("App5.Settings, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", Settings.class, __md_methods);
 	}
 
 
-	public GameResults () throws java.lang.Throwable
+	public Settings () throws java.lang.Throwable
 	{
 		super ();
-		if (getClass () == GameResults.class)
-			mono.android.TypeManager.Activate ("App5.GameResults, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+		if (getClass () == Settings.class)
+			mono.android.TypeManager.Activate ("App5.Settings, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

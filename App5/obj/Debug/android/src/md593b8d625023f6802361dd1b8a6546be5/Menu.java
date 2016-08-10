@@ -1,7 +1,7 @@
 package md593b8d625023f6802361dd1b8a6546be5;
 
 
-public class Manu
+public class Menu
 	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer
@@ -12,15 +12,15 @@ public class Manu
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("App5.Manu, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", Manu.class, __md_methods);
+		mono.android.Runtime.register ("App5.Menu, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", Menu.class, __md_methods);
 	}
 
 
-	public Manu () throws java.lang.Throwable
+	public Menu () throws java.lang.Throwable
 	{
 		super ();
-		if (getClass () == Manu.class)
-			mono.android.TypeManager.Activate ("App5.Manu, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+		if (getClass () == Menu.class)
+			mono.android.TypeManager.Activate ("App5.Menu, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

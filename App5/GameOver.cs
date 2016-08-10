@@ -19,13 +19,24 @@ namespace App5
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.activity_game_over);
+            SetContentView(Resource.Layout.GameOver);
+            FindViewById<TextView>(Resource.Id.score).Text = Intent.GetStringExtra("score") ;
 
+            FindViewById<Button>(Resource.Id.main).Click += Retry;
+            FindViewById<Button>(Resource.Id.retry).Click += Manu;
+        }
 
-            
-
-            string score = Intent.GetStringExtra("score");
-            FindViewById<TextView>(Resource.Id.score).SetWidth(1100);
+        void Retry(object sender, EventArgs e)
+        {
+            Intent activity2 = new Intent(this, typeof(MainActivity));
+            this.StartActivity(activity2);
+            this.Finish();
+        }
+        void Manu(object sender, EventArgs e)
+        {
+            Intent activity2 = new Intent(this, typeof(Menu));
+            this.StartActivity(activity2);
+            this.Finish();
         }
     }
 }

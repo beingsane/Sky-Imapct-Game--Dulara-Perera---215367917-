@@ -31,36 +31,50 @@ namespace App5
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main" layout resource
+         
+
             SetContentView(Resource.Layout.game);
-
-            // Get our button from the layout resource,
-            // and attach an event to it
-
             enemyMove();
             MoveBackground();
 
             mySensorManager = (SensorManager)
-               GetSystemService(SensorService);
+            GetSystemService(SensorService);
 
             mySensorManager.RegisterListener(this, mySensorManager.
             GetDefaultSensor(SensorType.Accelerometer),
             SensorDelay.Ui);
 
-          Button  button = FindViewById<Button>(Resource.Id.shoot);
+            Button  button = FindViewById<Button>(Resource.Id.shoot);
             button.Click += shoot;
+
+            FindViewById<Button>(Resource.Id.more).Click += shoWMenu;
+        }
+
+        private void shoWMenu(object sender, EventArgs e)
+
+        {
+            etimer.Stop();
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.SetTitle("Pause");
+            alert.SetMessage("Please select a option" + level);
+            alert.SetPositiveButton("Resume", (senderAlert, args) => {
+                etimer.Start();
+            });
+            alert.SetNegativeButton("Quit Game", (senderAlert, args) => {
+                OnBackPressed();
+            });
+
+           
+
+            alert.Show();
 
         }
 
         public void enemyMove()
         {
-            ImageView enemyr = FindViewById<ImageView>(Resource.Id.mini);
-            enemyr.Animate()
-                .SetDuration(3000)
-                .Rotation(360);
-
-           etimer = new System.Timers.Timer();
-            etimer.Interval = 20;
+          
+            etimer = new System.Timers.Timer();
+            etimer.Interval = 24 - (level*4);
             etimer.Elapsed += (sender, e) =>
             {
 
@@ -72,8 +86,8 @@ namespace App5
                     var metrics = Resources.DisplayMetrics;
 
 
-                    int width = metrics.WidthPixels - 100;
-                    int height = metrics.HeightPixels - 100;
+                    int width = metrics.WidthPixels - enemy.Width;
+                    int height = metrics.HeightPixels - (enemy.Width*2);
 
                     if (bx > width)
                     {
@@ -98,10 +112,24 @@ namespace App5
                         dy = 1;
                     }
 
-                    if (rocket.GetY()+50<by && by > rocket.GetY() && rocket.GetX() + 50 > bx) {
+
+
+
+                    if ((rocket.GetY()+(rocket.Height/2)<= by+enemy.Height || (rocket.GetY() + (rocket.Height / 2) <= by) && by >= rocket.GetY()) && rocket.GetX() + rocket.Width >= bx) {
                         ProgressBar userLife =  FindViewById<ProgressBar>(Resource.Id.user_life);
                         userLife.Progress -= 20;
-                       
+
+
+                        rocket.Alpha = 0;
+                        rocket.Animate()
+                    .SetDuration(5000)
+                    .Alpha(10);
+
+
+                        MediaPlayer player;
+                        player = MediaPlayer.Create(this, Resource.Raw.blast);
+                        player.Start();
+
                         by = 0;
                         bx = width;
 
@@ -244,7 +272,7 @@ namespace App5
             player.Start();
 
 
-            laser.SetY(rocket.GetY()) ;
+            laser.SetY(rY+(rocket.Height/2)-(laser.Height/2)) ;
             laser.SetImageResource(Resource.Drawable.laser);
             laser.Alpha = 10;
             laser.Animate()
@@ -271,7 +299,7 @@ namespace App5
                         etimer.Start(); 
                     });
                     alert.SetNegativeButton("Exit", (senderAlert, args) => {
-                        Intent activity2 = new Intent(this, typeof(Menu));
+                        Intent activity2 = new Intent(this, typeof(Android.Views.Menu));
                         this.StartActivity(activity2);
                         this.Finish();
                     });
@@ -284,6 +312,26 @@ namespace App5
           
             }
         }
-    }
+
+
+        public override void OnBackPressed()
+        {
+          
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.SetTitle("Exit");
+            alert.SetMessage("You sure to exit the game?");
+            alert.SetPositiveButton("Yes", (senderAlert, args) => {
+                Intent activity2 = new Intent(this, typeof(Menu));
+                this.StartActivity(activity2);
+                this.Finish();
+            });
+            alert.SetNegativeButton("No", (senderAlert, args) => {
+               
+            });
+
+            alert.Show();
+        }
+
+}
 }
 

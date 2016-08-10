@@ -12,8 +12,18 @@ using Android.Widget;
 
 namespace App5
 {
-    class Settings
+    class Settings:Activity
     {
-      //  public static int sound_level = 20;
+       public static int sound_level = 20;
+
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+
+            SetContentView(Resource.Layout.settings);
+            Settings.sound_level = FindViewById<SeekBar>(Resource.Id.level).Progress;
+        }
+
+
     }
 }

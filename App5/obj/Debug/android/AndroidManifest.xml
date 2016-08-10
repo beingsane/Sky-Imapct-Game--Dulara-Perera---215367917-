@@ -7,9 +7,8 @@
   <application android:label="Sky Impact" android:icon="@drawable/logo" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:label="about" android:name="md593b8d625023f6802361dd1b8a6546be5.About" />
     <activity android:label="GameOver" android:name="md593b8d625023f6802361dd1b8a6546be5.GameOver" />
-    <activity android:label="GameResults" android:name="md593b8d625023f6802361dd1b8a6546be5.GameResults" />
     <activity android:label="App5" android:name="md593b8d625023f6802361dd1b8a6546be5.MainActivity" />
-    <activity android:icon="@drawable/logo" android:label="Manu" android:name="md593b8d625023f6802361dd1b8a6546be5.Manu">
+    <activity android:icon="@drawable/logo" android:label="Menu" android:name="md593b8d625023f6802361dd1b8a6546be5.Menu">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

@@ -6,15 +6,15 @@ App5.GameOver, App5;md593b8d625023f6802361dd1b8a6546be5.GameOver
 App5.GameOver, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md593b8d625023f6802361dd1b8a6546be5.GameOver
 App5.GameOver;md593b8d625023f6802361dd1b8a6546be5.GameOver
 app5.GameOver;md593b8d625023f6802361dd1b8a6546be5.GameOver
-App5.GameResults, App5;md593b8d625023f6802361dd1b8a6546be5.GameResults
-App5.GameResults, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md593b8d625023f6802361dd1b8a6546be5.GameResults
-App5.GameResults;md593b8d625023f6802361dd1b8a6546be5.GameResults
-app5.GameResults;md593b8d625023f6802361dd1b8a6546be5.GameResults
 App5.MainActivity, App5;md593b8d625023f6802361dd1b8a6546be5.MainActivity
 App5.MainActivity, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md593b8d625023f6802361dd1b8a6546be5.MainActivity
 App5.MainActivity;md593b8d625023f6802361dd1b8a6546be5.MainActivity
 app5.MainActivity;md593b8d625023f6802361dd1b8a6546be5.MainActivity
-App5.Manu, App5;md593b8d625023f6802361dd1b8a6546be5.Manu
-App5.Manu, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md593b8d625023f6802361dd1b8a6546be5.Manu
-App5.Manu;md593b8d625023f6802361dd1b8a6546be5.Manu
-app5.Manu;md593b8d625023f6802361dd1b8a6546be5.Manu
+App5.Menu, App5;md593b8d625023f6802361dd1b8a6546be5.Menu
+App5.Menu, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md593b8d625023f6802361dd1b8a6546be5.Menu
+App5.Menu;md593b8d625023f6802361dd1b8a6546be5.Menu
+app5.Menu;md593b8d625023f6802361dd1b8a6546be5.Menu
+App5.Settings, App5;md593b8d625023f6802361dd1b8a6546be5.Settings
+App5.Settings, App5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md593b8d625023f6802361dd1b8a6546be5.Settings
+App5.Settings;md593b8d625023f6802361dd1b8a6546be5.Settings
+app5.Settings;md593b8d625023f6802361dd1b8a6546be5.Settings

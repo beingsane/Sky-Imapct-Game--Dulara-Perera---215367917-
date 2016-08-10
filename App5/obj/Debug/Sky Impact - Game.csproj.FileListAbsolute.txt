@@ -70,6 +70,8 @@ C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\layout\about.xml
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\layout\main.xml
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\layout-land\about.xml
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\layout-land\main.xml
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\layout\gameover.xml
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\layout\settings.xml
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\values\strings.xml
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\icon.png
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\mini.png
@@ -89,10 +91,19 @@ C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\settings.png
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\logo.png
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\background.png
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\pic.png
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\layout\activity_game_over.xml
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\main_menu.png
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\retry.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-hdpi\rocket.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-hdpi\mini.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xhdpi\mini.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xxhdpi\rocket.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xhdpi\rocket.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xxhdpi\mini.png
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\raw\laser.mp3
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-hdpi\logo.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xhdpi\logo.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xxhdpi\logo.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\menu\popup.xml
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\R.cs.flag
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\uploadflags.txt
 C:\Users\Dulara\My Drive\MyGit\App5\App5\bin\Debug\App5.dll.mdb
@@ -119,5 +130,7 @@ C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.Runtime
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\Sky Impact - Game.csprojResolveAssemblyReference.cache
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\raw\blast.mp3
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\App5.dll.mdb
 C:\Users\Dulara\My Drive\MyGit\App5\App5\bin\Debug\App5.dll.mdb

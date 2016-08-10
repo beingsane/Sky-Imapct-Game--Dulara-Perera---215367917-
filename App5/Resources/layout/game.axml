@@ -37,24 +37,31 @@
                 android:layout_height="match_parent"
                 android:id="@+id/imageViewa3"
                 android:padding="0dp"
-                android:minHeight="20dp"
                 android:scaleType="centerCrop"
                 android:layout_marginRight="0.0dp" />
         </LinearLayout>
     </HorizontalScrollView>
+    <Button
+        android:text="More"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/more" 
+         android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        />
     <ImageView
         android:id="@+id/mini"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/mini" />
     <ImageView
         android:id="@+id/laser"
         android:layout_width="match_parent"
-        android:layout_height="80dp" />
+        android:layout_height="wrap_content" />
     <ImageView
         android:id="@+id/rocket"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/rocket" />
     <Button
         android:text="Shoot"

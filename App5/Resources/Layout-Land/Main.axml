@@ -14,11 +14,12 @@
         android:weightSum="1"
         android:background="@drawable/background">
         <ImageView
-            android:layout_width="300dp"
-            android:layout_height="273.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:src="@drawable/logo"
             android:id="@+id/textView"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="30dp" />
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
