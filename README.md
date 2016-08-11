@@ -1,5 +1,8 @@
 # Sky-Imapct-Game--Dulara-Perera---215367917-
 SIT313 - Mobile Computing - Assignment 1 - 215367917
+Developed by Dulara Perera.
+This app is not for commercial use.
+
 App Overview
 This is a simple game which developed using xamarine for SIT 313 project 1. Following are the main Activities of this game.
 -Main menu – Display all buttons to access other sub menus
