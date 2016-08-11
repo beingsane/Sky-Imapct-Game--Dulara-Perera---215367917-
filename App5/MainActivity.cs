@@ -41,8 +41,23 @@ namespace App5
                 TextView scoreText = FindViewById<TextView>(Resource.Id.score);
                 scoreText.Text = score.ToString();
             }
+            else
+            {
 
-  
+                AlertDialog.Builder alert = new AlertDialog.Builder(this);
+                alert.SetTitle("Alert");
+                alert.SetMessage("Use gyroscope to move rocket up and down!");
+                alert.SetPositiveButton("Play", (senderAlert, args) => {
+
+                });
+
+
+
+
+                alert.Show();
+            }
+          
+
             enemyMove();
            MoveBackground();
             backgroundMusic();
@@ -230,7 +245,9 @@ namespace App5
 
                 }
 
-                float cZpos = (metrics.HeightPixels - (metrics.HeightPixels / 9) * currentZ) - 100; ;
+                Button more = (Button)FindViewById<Button>(Resource.Id.more);
+                var dh = more.GetY() ;
+                float cZpos = (dh - (dh / 9) * currentZ) ; ;
 
 
 

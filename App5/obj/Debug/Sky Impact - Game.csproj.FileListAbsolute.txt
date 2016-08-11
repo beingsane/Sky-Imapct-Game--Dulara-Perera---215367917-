@@ -106,6 +106,14 @@ C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xxhdpi\logo.png
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\menu\popup.xml
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\raw\blast.mp3
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\raw\backsound.wav
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xxhdpi\shoot.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xhdpi\shoot.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-hdpi\shoot.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\shoot.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\more.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-hdpi\more.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xhdpi\more.png
+C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xxhdpi\more.png
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\R.cs.flag
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\uploadflags.txt
 C:\Users\Dulara\My Drive\MyGit\App5\App5\bin\Debug\App5.dll.mdb
@@ -132,14 +140,5 @@ C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.Runtime
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\Sky Impact - Game.csprojResolveAssemblyReference.cache
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xxhdpi\shoot.png
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xhdpi\shoot.png
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-hdpi\shoot.png
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\shoot.png
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable\more.png
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-hdpi\more.png
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xhdpi\more.png
-C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\res\drawable-xxhdpi\more.png
 C:\Users\Dulara\My Drive\MyGit\App5\App5\obj\Debug\App5.dll.mdb
 C:\Users\Dulara\My Drive\MyGit\App5\App5\bin\Debug\App5.dll.mdb
