@@ -15,6 +15,8 @@ This is a simple game which developed using xamarine for SIT 313 project 1. Foll
 How to play
 User must use gyroscope to move the space shuttle (rocket) . So, when user rotate the phone around it’s X axis rocket will move. User can shoot the object by pressing the shoot button. So laser will appear. If enemy object overlap with the laser user will get points. If enemy object overlap with rocket user’s will decreased. If enemy destroyed user can pass to next level. In each level enemy size will reduced and speed will increased. 
 Used assets
+
+Reference to used images.
 http://peetlee.com/portfolio/2d-pack/ 
 https://marketplacecdn.yoyogames.com/images/assets/1874/screenshots/5146_original.png?1430761602
 http://www.reviversoft.com/blog/wp-content/uploads/2013/03/Minesweeper_Icon.png
