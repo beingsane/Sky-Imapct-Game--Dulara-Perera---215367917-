@@ -12,6 +12,12 @@ This is a simple game which developed using xamarine for SIT 313 project 1. Foll
 -Exit – Exit from the game
 -Game over view – Show the score of the game
 -------------------------------------------------------------------------------------------------------------
+System requirements
+-Minimum API Level 15
+-Maximum API Level 23
+-User's device must have a touch screen and gyroscope to play this game.
+
+--------------------------------------------------------------------------------------------------------------
 How to play
 User must use gyroscope to move the space shuttle (rocket) . So, when user rotate the phone around it’s X axis rocket will move. User can shoot the object by pressing the shoot button. So laser will appear. If enemy object overlap with the laser user will get points. If enemy object overlap with rocket user’s will decreased. If enemy destroyed user can pass to next level. In each level enemy size will reduced and speed will increased. 
 Used assets
